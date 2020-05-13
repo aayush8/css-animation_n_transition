@@ -1,0 +1,38 @@
+#heading {
+    border: 2px solid black;
+    color: brown;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    transition-property: background color border;
+    transition-duration: 5s;
+}
+
+#body {
+    position: relative;
+    border: 2px solid black;
+    color: green;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    transition: all 5s;
+}
+
+#btn {
+    
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#heading:hover {
+    border: 10px solid yellow;
+    background-color: black;
+    color: white;
+}
+
+#body:hover {
+    width: 700px;
+    color: red;
+    left: 100px;
+}
